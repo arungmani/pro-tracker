@@ -1,5 +1,5 @@
 var mongoose = require("mongoose");
-const mongoAtlasUri = `mongodb+srv://protracker:dealwithadevil@protracker.m189sq7.mongodb.net/internalDb?retryWrites=true&w=majority`
+const mongoAtlasUri = `mongo url`
 
 function mongooseConnection() {
     return new Promise((resolve, reject) => {
